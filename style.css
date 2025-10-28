@@ -331,3 +331,13 @@ footer {
         height: 140px
     }
 }
+#head{
+       border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
+    /* border: 1px solid rgba(255, 255, 255, 0.35); */
+    box-shadow: 0 8px 30px rgba(10, 10, 10, 0.25);
+    backdrop-filter: blur(14px) saturate(120%);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(120%);
+    overflow: hidden;
+    padding: 7px;
+}
